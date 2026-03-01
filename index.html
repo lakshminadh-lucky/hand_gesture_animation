@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hand Gesture Animations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Hand Gesture Controlled Animations</h2>
+
+<div class="container">
+  <video id="video" autoplay playsinline></video>
+
+  <div class="gesture-ui">
+    <img id="gestureIcon" src="" alt="gesture">
+    <p id="gestureText">Show your hand</p>
+  </div>
+</div>
+
+<div id="animationBox"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
